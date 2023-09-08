@@ -15,3 +15,30 @@ root {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: var(--light-color);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header {
+  padding: 70px 104px 0 130px;
+}
+.menu_list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu_list_item {
+  list-style: none;
+  padding-right: 44px;
+  white-space: nowrap;
+  text-align: center;
+}
+.logo {
+  margin-right: 31px;
+}
+.menu_list_item_links {
+  text-decoration: none;
+  color: var(--dark-color);
+}
