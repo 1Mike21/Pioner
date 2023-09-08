@@ -1,0 +1,9 @@
+/* Переменные */
+root {
+  --accent-color: #607CE6;
+  --dark-color: #333333;
+  --light-color: #FFFFFF;
+  --third-color: #D9D9D9;
+  --gray-color: #888888;
+  --light-gray-color: #F5F5F5;
+}
