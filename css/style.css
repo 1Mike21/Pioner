@@ -1,5 +1,5 @@
 /* Переменные */
-root {
+:root {
   --accent-color: #607CE6;
   --dark-color: #333333;
   --light-color: #FFFFFF;
@@ -20,6 +20,7 @@ body {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  color: var(--dark-color);
 }
 .header {
   padding: 70px 104px 0 130px;
@@ -62,4 +63,25 @@ body {
 .main_description {
   max-width: 379px;
   padding-top: 25px;
+}
+.about {
+  padding-top: 127px;
+}
+.h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  margin-bottom: 32px;
+}
+.about_description {
+  line-height: 22.4px;
+  margin-bottom: 24px;
+}
+.about_flex {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+.about_flex_item:last-child img {
+  padding-top: 91px;
 }
