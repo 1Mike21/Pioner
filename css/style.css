@@ -26,7 +26,7 @@ body {
 }
 .menu_list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .menu_list_item {
@@ -41,4 +41,25 @@ body {
 .menu_list_item_links {
   text-decoration: none;
   color: var(--dark-color);
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.main {
+  padding-top: 83.51px;
+}
+.main_text { 
+  display: flex;
+  margin-bottom: 32px;
+}
+.main_title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  max-width: 580px;
+}
+.main_description {
+  max-width: 379px;
+  padding-top: 25px;
 }
